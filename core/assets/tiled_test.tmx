@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="18" height="12" tilewidth="512" tileheight="512" nextobjectid="16">
+ <tileset firstgid="1" source="tileset_test.tsx"/>
+ <layer name="Capa de Patrones 1" width="18" height="12">
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10,11,
+1,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,14,15,
+1,1,2,3,4,1,1,1,5,1,1,1,9,1,1,1,1,1,
+1,1,1,1,1,1,1,1,13,1,1,1,9,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,13,1,1,1,1,1,
+8,1,1,6,8,1,1,1,1,1,1,1,1,1,1,1,1,1,
+12,1,1,10,12,1,1,6,7,8,1,1,1,1,1,1,1,1,
+12,1,1,14,16,1,1,10,11,12,1,1,2,3,3,4,1,1,
+16,1,1,1,1,1,1,14,15,16,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,6,7,7,8,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <objectgroup name="Capa de Objetos 1">
+  <object id="5" name="10" type="Enemy" x="8024" y="1248" width="920" height="872"/>
+  <object id="10" name="10" type="Player" x="608" y="2896" width="840" height="672"/>
+  <object id="11" name="10" type="Enemy" x="6240" y="4600" width="2192" height="1424"/>
+ </objectgroup>
+</map>
